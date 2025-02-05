@@ -14,11 +14,8 @@ autoinstall:
   identity:
     realname: "Ubuntu User"
     username: ubuntu
-    password: "ubuntu"  # Hash SHA-512 gerado
+    password: "ubuntu"
     hostname: ubuntu
-  active-directory:
-    admin-name: admin_ad  # Usuário real
-    domain-name: ad.ubuntu.com
   apt:
     mirror-selection:
       primary:
@@ -33,7 +30,7 @@ autoinstall:
   storage:
     layout:
       name: lvm
-      password: "senha_segura"  # Em claro ou substitua por variável
+      password: "senha_segura"
       sizing-policy: all
     swap:
       size: 8GB
