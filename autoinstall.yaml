@@ -9,7 +9,7 @@ autoinstall:
     id: ubuntu-desktop-minimal
   keyboard:
     layout: br
-    variant: abnt2
+    variant: abnt
     toggle: null
   identity:
     realname: "Ubuntu User"
