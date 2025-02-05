@@ -94,5 +94,5 @@ autoinstall:
     - micro
     - gh
     - build-essential
-    - nvidia-driver-470
+    #- nvidia-driver-470
   shutdown: reboot
