@@ -84,6 +84,6 @@ autoinstall:
       channel: edge
       classic: false    
   packages:
-    - git
-    - gh
+    - build-essential
+    - nvidia-driver-470
   shutdown: reboot
