@@ -6,7 +6,7 @@ autoinstall:
   updates: all
   source:
     search_drivers: true
-    id: ubuntu-desktop-minimal
+    id: ubuntu-desktop
   keyboard:
     layout: br
     variant: nativo
@@ -30,10 +30,7 @@ autoinstall:
   storage:
     layout:
       name: lvm
-      password: "senha_segura"
       sizing-policy: all
-    swap:
-      size: 8GB
   snaps:
     - name: postman
       channel: latest/stable
@@ -87,11 +84,6 @@ autoinstall:
       channel: edge
       classic: false    
   packages:
-    - wget
-    - curl
     - git
-    - ufw
-    - micro
     - gh
-    - build-essential
   shutdown: reboot
